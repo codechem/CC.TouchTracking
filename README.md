@@ -5,7 +5,7 @@ Forked from https://github.com/OndrejKunc/SkiaScene .
 Supported platforms are .NET Standard 1.3, Xamarin.iOS, Xamarin.Android.
 
 ```
-Install-Package TouchTracking
+Install-Package CC.TouchTracking
 ```
 Implemented as .NET Standard 1.3 and platform-specific libraries.
 
@@ -32,7 +32,7 @@ void OnTouch(object sender, TouchActionEventArgs args) {
 
 ### TouchTracking.Forms
 ```
-Install-Package TouchTracking.Forms
+Install-Package CC.TouchTracking.Forms
 ```
 Implemented as .NET Standard 1.3 and platform-specific libraries.
 
