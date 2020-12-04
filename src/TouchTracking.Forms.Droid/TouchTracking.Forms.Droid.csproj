@@ -14,7 +14,7 @@
     <FileAlignment>512</FileAlignment>
     <AndroidResgenFile>Resources\Resource.Designer.cs</AndroidResgenFile>
     <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
-    <TargetFrameworkVersion>v9.0</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v10.0</TargetFrameworkVersion>
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
   </PropertyGroup>
@@ -53,10 +53,6 @@
     <None Include="Resources\AboutResources.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\TouchTracking.Droid\TouchTracking.Droid.csproj">
-      <Project>{85AA4D78-7C3D-49EC-BA83-21525A8D1CFA}</Project>
-      <Name>TouchTracking.Droid</Name>
-    </ProjectReference>
     <ProjectReference Include="..\TouchTracking.Forms\TouchTracking.Forms.csproj">
       <Project>{F6457B9F-3E4F-45F5-A5F4-7161492E6D68}</Project>
       <Name>TouchTracking.Forms</Name>

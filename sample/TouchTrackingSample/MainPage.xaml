@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="TouchTrackingSample.MainPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:tt="clr-namespace:TouchTracking.Forms;assembly=TouchTracking.Forms">
+    <Grid BackgroundColor="Red">
+        <StackLayout>
+            <Label
+                Padding="30,24,30,0"
+                FontSize="16"
+                Text="Position: " />
+            <Label
+                Padding="30,24,30,0"
+                FontSize="16"
+                Text="{Binding X}" />
+            <Label
+                Padding="30,24,30,0"
+                FontSize="16"
+                Text="{Binding Y}" />
+        </StackLayout>
+        <Grid.Effects>
+            <tt:TouchEffect Capture="True" TouchAction="TouchEffect_TouchAction" />
+        </Grid.Effects>
+    </Grid>
+</ContentPage>
